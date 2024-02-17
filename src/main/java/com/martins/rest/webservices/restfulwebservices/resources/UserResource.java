@@ -1,5 +1,8 @@
-package com.martins.rest.webservices.restfulwebservices.user;
+package com.martins.rest.webservices.restfulwebservices.resources;
 
+import com.martins.rest.webservices.restfulwebservices.dao.UserDaoService;
+import com.martins.rest.webservices.restfulwebservices.exception.UserNotFoundException;
+import com.martins.rest.webservices.restfulwebservices.user.User;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

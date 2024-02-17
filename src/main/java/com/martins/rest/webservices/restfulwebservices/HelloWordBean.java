@@ -1,4 +1,4 @@
-package com.martins.rest.webservices.restfulwebservices.controller;
+package com.martins.rest.webservices.restfulwebservices;
 
 public class HelloWordBean {
 

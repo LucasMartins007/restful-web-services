@@ -1,5 +1,6 @@
-package com.martins.rest.webservices.restfulwebservices.user;
+package com.martins.rest.webservices.restfulwebservices.dao;
 
+import com.martins.rest.webservices.restfulwebservices.user.User;
 import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;
