@@ -1,18 +1,19 @@
 package com.martins.rest.webservices.restfulwebservices.exception;
 
 import java.time.LocalDateTime;
+import java.util.List;
 
 public class ErrorDetails {
 
     private LocalDateTime timestamp;
 
-    private String message;
+    private List<String> messages;
 
     private String details;
 
-    public ErrorDetails(LocalDateTime timestamp, String message, String details) {
+    public ErrorDetails(LocalDateTime timestamp, List<String> messages, String details) {
         this.timestamp = timestamp;
-        this.message = message;
+        this.messages = messages;
         this.details = details;
     }
 
@@ -24,12 +25,12 @@ public class ErrorDetails {
         this.timestamp = timestamp;
     }
 
-    public String getMessage() {
-        return message;
+    public List<String> getMessages() {
+        return messages;
     }
 
-    public void setMessage(String message) {
-        this.message = message;
+    public void setMessages(List<String> messages) {
+        this.messages = messages;
     }
 
     public String getDetails() {
